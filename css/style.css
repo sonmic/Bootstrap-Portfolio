@@ -1,0 +1,229 @@
+                body {
+                    font-family: Arial, Helvetica, sans-serif;
+                    color: #777;
+                    margin: 0 auto;
+                    width: 100%;
+                    background-image: url('../images/wavy-dots.png');
+                    background-repeat: repeat;
+                    display: flex;
+                    flex-direction: column;
+                }
+                
+                .container {
+                    padding: 0;
+                    margin-bottom: 100px;
+                }
+                
+                .navbar {
+                    padding: 0;
+                    width: 100%;
+                    margin: 0;
+                    border-bottom: 2px solid #dddddd;
+                }
+                
+                .navbar-brand {
+                    float: left;
+                    font-family: Georgia, Times, Times New Roman, serif;
+                    background-color: #4aaaa5;
+                    padding: 25px;
+                    text-align: center;
+                    font-size: 15px;
+                    font-weight: bold;
+                    font-size: 1.4em;
+                    margin: 0;
+                }
+                
+                a.navbar-brand {
+                    color: #ffffff;
+                }
+                
+                .navbar-nav {
+                    flex-direction: row;
+                    float: none;
+                    padding: 15px 0;
+                    width: 200px;
+                    margin: 0 auto;
+                }
+                
+                nav ul {
+                    list-style-type: none;
+                    overflow: hidden;
+                    clear: both;
+                    float: right;
+                    margin: 0;
+                }
+                
+                nav li {
+                    float: left;
+                    padding: 0 10px;
+                    font-size: 15px;
+                }
+                
+                nav li.border-right {
+                    border-right: 2px solid #cccccc;
+                }
+                
+                a {
+                    color: #777;
+                    text-decoration: none;
+                }
+                
+                #main-content {
+                    display: block;
+                    overflow: hidden;
+                    clear: both;
+                    margin: 20px auto 80px auto;
+                    border: 1px solid #dddddd;
+                    background-color: #fff;
+                    margin: 20px;
+                }
+                
+                section {
+                    margin: 0 30px;
+                }
+                
+                h1 {
+                    font-family: Georgia, Times, Times New Roman, serif;
+                    color: #4aaaa5;
+                    border-bottom: 2px solid #dddddd;
+                    padding: 25px 0;
+                    margin: 0;
+                    font-size: 22px;
+                    font-weight: bold;
+                }
+                
+                .me {
+                    margin: 20px 0;
+                }
+                
+                img.img {
+                    float: left;
+                    margin: 0 20px 20px 0;
+                    width: 100%;
+                }
+                
+                p {
+                    margin: 0 10px 20px 0;
+                    color: #777;
+                    font-size: 15px;
+                    font-weight: normal;
+                    line-height: 20px;
+                }
+                
+                form {
+                    margin: 20px 0;
+                    font-size: 15px;
+                }
+                
+                input,
+                textarea {
+                    width: 100%;
+                    margin: 5px 0 15px 0;
+                    padding: 5px;
+                    color: #777;
+                }
+                
+                textarea {
+                    border-color: #cccccc;
+                }
+                
+                .submit-button {
+                    width: 100px;
+                    border-radius: 0px;
+                    background-color: #4aaaa5;
+                    border: none;
+                    color: #fff;
+                    padding: 12px 0;
+                    font-size: 15px;
+                }
+                
+                form {
+                    margin: 20px 0 !important;
+                }
+                
+                footer {
+                    background-color: #666666;
+                    color: #ffffff;
+                    border-top: 8px solid #4aaaa5;
+                    text-align: center;
+                }
+                
+                @media only screen and (min-width: 768px) {
+                    .navbar-nav {
+                        flex-direction: row;
+                        float: right;
+                        padding: 15px 0;
+                        margin: 0;
+                        vertical-align: middle;
+                    }
+                    #main-content {
+                        margin: 20px 0;
+                    }
+                }
+                
+                @media only screen and (min-width: 992px) {
+                    .navbar-nav {
+                        width: 255px;
+                    }
+                }
+                /* contact form button style */
+                
+                .btn-primary,
+                .btn-primary:active,
+                .btn-primary:visited {
+                    background-color: #4aaaa5 !important;
+                    border-radius: 0 !important;
+                }
+                
+                .btn-primary:hover,
+                .card-footer:hover {
+                    background-color: #83d3cf !important;
+                }
+                /* Portfolio */
+                
+                img.cat {
+                    float: left;
+                    width: 100%;
+                }
+                
+                .portfoliotext {
+                    color: #fff;
+                    position: absolute;
+                    width: 100%;
+                    background-color: #4aaaa5;
+                    padding: 10px 0;
+                    text-align: center;
+                    font-family: Georgia, Times, Times New Roman, serif;
+                    bottom: 10px;
+                    font-size: 18px;
+                }
+                
+                .catbox {
+                    position: relative;
+                    float: left;
+                    padding: 0;
+                    margin: 0 20px 20px 0;
+                }
+                
+                .card {
+                    margin: 5px auto;
+                }
+                
+                .card-footer {
+                    background-color: #4aaaa5;
+                }
+                
+                .card-link {
+                    color: #fff;
+                    text-align: center;
+                    font-family: Georgia, Times, Times New Roman, serif;
+                    font-size: 18px;
+                }
+                
+                a:hover {
+                    color: #83d3cf !important;
+                }
+                
+                #portfoliocat {
+                    margin: 5px auto;
+                }
