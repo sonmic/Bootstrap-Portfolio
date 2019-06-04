@@ -21,7 +21,7 @@
                     border-bottom: 2px solid #dddddd;
                 }
                 
-                .navbar-brand {
+                .myname {
                     float: left;
                     font-family: Georgia, Times, Times New Roman, serif;
                     background-color: #4aaaa5;
@@ -31,10 +31,15 @@
                     font-weight: bold;
                     font-size: 1.4em;
                     margin: 0;
+                    color: #fff;
+                    text-decoration: none;
                 }
                 
-                a.navbar-brand {
-                    color: #ffffff;
+                a.myname {
+                    color: #fff;
+                    text-align: center;
+                    font-family: Georgia, Times, Times New Roman, serif;
+                    text-decoration: none;
                 }
                 
                 .navbar-nav {
@@ -143,9 +148,13 @@
                 
                 footer {
                     background-color: #666666;
-                    color: #ffffff;
                     border-top: 8px solid #4aaaa5;
                     text-align: center;
+                }
+                
+                .muted {
+                    color: #ffffff;
+                    margin-top: 20px;
                 }
                 
                 @media only screen and (min-width: 768px) {
@@ -168,6 +177,7 @@
                 }
                 /* contact form button style */
                 
+                .myname,
                 .btn-primary,
                 .btn-primary:active,
                 .btn-primary:visited {
@@ -175,6 +185,7 @@
                     border-radius: 0 !important;
                 }
                 
+                .myname:hover,
                 .btn-primary:hover,
                 .card-footer:hover {
                     background-color: #83d3cf !important;
@@ -220,7 +231,7 @@
                     font-size: 18px;
                 }
                 
-                a:hover {
+                ul a:hover {
                     color: #83d3cf !important;
                 }
                 
